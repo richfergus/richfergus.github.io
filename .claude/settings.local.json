@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude mcp:*)",
+      "Bash(npx:*)",
+      "Bash(npm search:*)",
+      "Bash(npm install:*)",
+      "Bash(mv:*)",
+      "Bash(rm:*)",
+      "Bash(echo \"Exit code: $?\")",
+      "Read(//Users/victory/**)",
+      "Bash(uvx:*)",
+      "Bash(npm run build)",
+      "Bash(npm run dev)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
