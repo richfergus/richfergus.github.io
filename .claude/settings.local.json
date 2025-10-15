@@ -12,7 +12,14 @@
       "Bash(uvx:*)",
       "Bash(npm run build)",
       "Bash(npm run dev)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(npm run deploy)",
+      "Bash(gh-pages:*)",
+      "Bash(git branch:*)",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "ask": []
