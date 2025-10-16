@@ -21,7 +21,7 @@ export function BioCard() {
         <div className="flex flex-col sm:flex-row items-center gap-6">
           <div className="relative w-32 h-32 rounded-full overflow-hidden bg-muted flex-shrink-0">
             <Image
-              src="/placeholder-profile.svg"
+              src="/LinkedinHead2.jpg"
               alt="Richard D. Ferguson"
               fill
               className="object-cover"

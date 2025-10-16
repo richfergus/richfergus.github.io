@@ -19,7 +19,8 @@
       "Bash(npm run deploy)",
       "Bash(gh-pages:*)",
       "Bash(git branch:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(node -e \"console.log(process.env.NEXT_PUBLIC_GITHUB_TOKEN || ''NOT FOUND'')\")"
     ],
     "deny": [],
     "ask": []
