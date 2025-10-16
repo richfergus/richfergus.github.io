@@ -285,7 +285,7 @@ export function ExperienceTimeline({ filter = "all" }: ExperienceTimelineProps) 
           <div className="absolute left-0 top-4 bottom-0 border-l-2" />
 
           {filteredExperiences.map((exp, index) => (
-            <div key={index} className="relative pl-8 pb-12 last:pb-0">
+            <div key={index} className="relative pl-8 pb-8 last:pb-0">
               {/* Timeline dot */}
               <div
                 className={`absolute h-3 w-3 -translate-x-1/2 left-px top-3 rounded-full border-2 ${
@@ -298,7 +298,7 @@ export function ExperienceTimeline({ filter = "all" }: ExperienceTimelineProps) 
               {/* Content */}
               <Sheet>
                 <SheetTrigger asChild>
-                  <div className="space-y-3 cursor-pointer group hover:bg-accent/50 p-4 rounded-lg transition-colors">
+                  <div className="space-y-2 cursor-pointer group hover:bg-accent/50 p-3 rounded-lg transition-colors">
                     <div className="flex items-center gap-2.5">
                       <div className="shrink-0 h-9 w-9 bg-accent rounded-full flex items-center justify-center">
                         <Building2 className="h-5 w-5 text-muted-foreground" />
@@ -312,7 +312,7 @@ export function ExperienceTimeline({ filter = "all" }: ExperienceTimelineProps) 
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold">{exp.title}</h3>
-                      <div className="flex items-center gap-2 mt-2 text-sm">
+                      <div className="flex items-center gap-2 mt-1 text-sm">
                         <Calendar className="h-4 w-4" />
                         <span>{exp.period}</span>
                       </div>
@@ -320,7 +320,7 @@ export function ExperienceTimeline({ filter = "all" }: ExperienceTimelineProps) 
                     <p className="text-sm sm:text-base text-muted-foreground text-pretty">
                       {exp.preview}
                     </p>
-                    <Button variant="ghost" size="sm" className="mt-2 group-hover:translate-x-1 transition-transform">
+                    <Button variant="ghost" size="sm" className="mt-1 group-hover:translate-x-1 transition-transform">
                       View Details <ChevronRight className="h-4 w-4 ml-1" />
                     </Button>
                   </div>
