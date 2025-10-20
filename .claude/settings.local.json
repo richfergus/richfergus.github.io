@@ -20,7 +20,8 @@
       "Bash(gh-pages:*)",
       "Bash(git branch:*)",
       "Bash(cat:*)",
-      "Bash(node -e \"console.log(process.env.NEXT_PUBLIC_GITHUB_TOKEN || ''NOT FOUND'')\")"
+      "Bash(node -e \"console.log(process.env.NEXT_PUBLIC_GITHUB_TOKEN || ''NOT FOUND'')\")",
+      "Bash(gh run list --limit 5)"
     ],
     "deny": [],
     "ask": []
