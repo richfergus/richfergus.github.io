@@ -36,40 +36,40 @@ export function BioCard() {
             <div className="flex flex-wrap gap-2 justify-center sm:justify-start pt-2">
               <Button variant="outline" size="sm" asChild>
                 <a href="https://github.com/richfergus" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
-                  <Github className="h-4 w-4 mr-2" />
+                  <Github className="h-4 w-4 mr-0" />
                   richfergus
                 </a>
               </Button>
               <Button variant="outline" size="sm" asChild>
                 <a href="mailto:rich@luli.us" aria-label="Email Contact">
-                  <Mail className="h-4 w-4 mr-2" />
+                  <Mail className="h-4 w-4 mr-0" />
                   rich@luli.us
                 </a>
               </Button>
               <Button variant="outline" size="sm" asChild>
                 <a href="tel:+17752234416" aria-label="Phone Number">
-                  <Phone className="h-4 w-4 mr-2" />
+                  <Phone className="h-4 w-4 mr-0" />
                   (775) 223-4416
                 </a>
               </Button>
               <Button variant="outline" size="sm" asChild>
                 <span>
-                  <MapPin className="h-4 w-4 mr-2" />
+                  <MapPin className="h-4 w-4 mr-0" />
                   Reno, NV
                 </span>
               </Button>
               <Sheet>
                 <SheetTrigger asChild>
                   <Button variant="destructive" size="sm">
-                    <BadgeQuestionMark className="h-4 w-4 mr-2" />
-                    How I Built This
+                    <BadgeQuestionMark className="h-4 w-4 mr-0" />
+                    Why I Built This
                   </Button>
                 </SheetTrigger>
                 <SheetContent className="sm:max-w-2xl overflow-y-auto">
                   <SheetHeader>
                     <SheetTitle>How I Built This Resume</SheetTitle>
                     <SheetDescription>
-                      Technical details and architecture of this resume application
+                     I thought it was important that my resume do more than just list accomplishments.. it should show what I can build. So, I created this site from scratch as a hands on demonstration of my engineering approach and design sensibility. It’s built with a modern stack—Next.js, TypeScript, Tailwind CSS—featuring custom UI components, role-based filtering, and even a GitHub contribution heatmap. Every element is intentional, from the color system to the scroll-tracking architecture, and reflects how I think about building clean, scalable, and user focused experiences.
                     </SheetDescription>
                   </SheetHeader>
 
@@ -176,9 +176,9 @@ export function BioCard() {
           <h3 className="text-xl font-semibold">Why me?</h3>
           <p className="text-muted-foreground leading-relaxed">
             I have extensive software development, infrastructure, cloud and cybersecurity experience │
-            Built (bootstrapped) and exited a very profitable startup │ Led massive technology initiatives │
+            Built (bootstrapped) and exited a profitable startup │ Led massive technology initiatives │
             Planned and implemented several worldwide product initiatives │ Personally wrote enterprise
-            software being used by the US Army in various locations │ Designed strategy and led the largest
+            software being used by the US Army in various locations │ Led the development of a one-of-a-kind AI tool on a FedRamp platform │ Designed strategy and led the largest
             migration of Presidential data in history for the most important office in the world
           </p>
         </div>

@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "export": "next build",
-    "deploy": "npm run export && touch out/.nojekyll && gh-pages -d out -t"
+    "deploy": "npm run build && git add -A && git commit -m 'Deploy: Update site' && git push origin master"
   },
   "dependencies": {
     "@octokit/graphql": "^9.0.2",

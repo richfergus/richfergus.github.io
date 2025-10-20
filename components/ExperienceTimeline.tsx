@@ -101,7 +101,7 @@ const experiences: Experience[] = [
       "Reduced IT budget by 40% while improving service delivery",
     ],
     technologies: ["IoT", "DevOps", "VMware", "Cloud", "Product Development"],
-    roles: ["cto"],
+    roles: ["cto", "ciso"],
   },
   {
     title: "National Security Fellow",
@@ -219,7 +219,7 @@ const experiences: Experience[] = [
       "Responsible for development of new technologies and enhancements",
     ],
     technologies: ["Enterprise Operations", "Network Infrastructure", "Telephony", "Security", "Web Development"],
-    roles: ["cto"],
+    roles: ["cto", "ciso"],
   },
   {
     title: "Network Operations Center Manager",
